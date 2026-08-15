@@ -19,7 +19,7 @@ def create_semi_circular_gauge(title, value, min_val=0, max_val=100, range_1=40,
         mode = "gauge+number+delta",
         value = value,
         delta = {'reference': benchmark_target, 'position': "bottom", 'font': {'size': 11, 'color': '#69f0ae' if value >= benchmark_target else '#ffb300'}},
-        number = {'suffix': suffix, 'font': {'color': '#ffffff', 'size': 26, 'family': 'Segoe UI', 'weight': 'bold'}},
+        number = {'suffix': suffix, 'font': {'color': '#ffffff', 'size': 26, 'family': 'Segoe UI'}},
         title = {'text': f"<b>{title}</b>", 'font': {'color': '#90caf9', 'size': 13, 'family': 'Segoe UI'}},
         gauge = {
             'axis': {
