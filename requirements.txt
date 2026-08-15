@@ -1,19 +1,9 @@
-# Core Framework
-streamlit==1.31.0
 
-# Data Processing & Analysis
+streamlit==1.31.0
+matplotlib
 pandas==2.2.0
 numpy==1.26.3
 openpyxl==3.1.2
-
-# Data Visualization
 plotly==5.18.0
-
-# PDF Generation
 reportlab==4.0.9
-
-# Database
-# sqlite3 is included in Python standard library
-
-# Image Processing
 Pillow==10.2.0
